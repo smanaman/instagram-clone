@@ -56,11 +56,11 @@ align-items: center;
 .round_up{
     width: 150px;
     height: 100px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 display: flex;
 justify-content: center;
 align-items: center;
-    
+    margin-right: 10px;
 
 }
 .round_in{
@@ -81,4 +81,44 @@ align-items: center;
 background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+   
+        position: absolute;
+    bottom: 10px;
+}
+.fot_div{
+    width: 20%;
+    height: 60px;
+    border: 1px solid black; 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.om{
+    width: 100%;
+    height: 310px;
+    border: 1px solid black; 
+    overflow: scroll;
+}
+.aman{
+    width: 100%;
+    height: 600px;
+    border: 1px solid blue;
+    background-color: #fcb045;
+}
+.chap{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.img{
+    width: 100%;
+    height: 30px;
+    border: 1px solid blueviolet;
 }
